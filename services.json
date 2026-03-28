@@ -1,0 +1,37 @@
+[
+  {
+    "name": "qBittorrent",
+    "port": 8080,
+    "color": "#4a9eff"
+  },
+  {
+    "name": "Forum",
+    "port": 3000,
+    "color": "#669d34"
+  },
+  {
+    "name": "Plex",
+    "port": 32400,
+    "color": "#e5a00d"
+  },
+  {
+    "name": "Stonks",
+    "port": 3003,
+    "color": "#ffffff"
+  },
+  {
+    "name": "Itemizer",
+    "port": 3005,
+    "color": "#e22400"
+  },
+  {
+    "name": "Jackett",
+    "port": 9117,
+    "color": "#000000"
+  },
+  {
+    "name": "Jobber",
+    "port": 3008,
+    "color": "#d38301"
+  }
+]

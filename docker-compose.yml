@@ -1,0 +1,12 @@
+services:
+  router:
+    build: .
+    ports:
+      - "6969:3000"
+    volumes:
+      - ./services.json:/app/services.json
+      - /mnt/plex:/mnt/plex:ro
+      - /var/log/auth.log:/var/log/auth.log:ro
+      - /:/host:ro
+      - /proc/net:/host-net:ro
+    restart: unless-stopped
