@@ -1,0 +1,7 @@
+
+# Pipeline ephemeral state
+.pipeline/current-run.json
+.pipeline/current-plan.md
+.pipeline/test-failures.md
+.pipeline/review-report.md
+.pipeline/deploy-error.log

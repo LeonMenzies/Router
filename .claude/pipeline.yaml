@@ -1,0 +1,10 @@
+app: Router
+stack: "Node.js 22, vanilla HTTP/HTTPS, config-driven reverse proxy via services.json"
+test_cmd: skip
+max_test_retries: 0
+deploy_mode: compose
+deploy_file: docker-compose.yml
+require_plan_approval: false
+review_block_on: high
+auto_merge: true
+notify_url: ""

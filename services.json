@@ -2,36 +2,116 @@
   {
     "name": "qBittorrent",
     "port": 8080,
-    "color": "#4a9eff"
-  },
-  {
-    "name": "Forum",
-    "port": 3000,
-    "color": "#669d34"
+    "color": "#4a9eff",
+    "description": "Torrent client"
   },
   {
     "name": "Plex",
     "port": 32400,
-    "color": "#e5a00d"
+    "color": "#e5a00d",
+    "description": "Media server"
   },
   {
-    "name": "Stonks",
-    "port": 3003,
-    "color": "#ffffff"
+    "name": "Jellyseerr",
+    "port": 5055,
+    "color": "#aa5cc3",
+    "description": "Media discovery & requests"
+  },
+  {
+    "name": "Forum",
+    "port": 3000,
+    "color": "#669d34",
+    "description": "Community forum",
+    "stage": "POC",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/LeonMenzies/Forum"
+      },
+      {
+        "label": "Supabase",
+        "url": "https://supabase.com/dashboard/project/dofxlnfwqvfeujypjyst"
+      }
+    ]
   },
   {
     "name": "Itemizer",
     "port": 3005,
-    "color": "#e22400"
-  },
-  {
-    "name": "Jackett",
-    "port": 9117,
-    "color": "#000000"
+    "color": "#e22400",
+    "description": "Item management",
+    "stage": "POC",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/LeonMenzies/Itemizer"
+      }
+    ]
   },
   {
     "name": "Jobber",
     "port": 3008,
-    "color": "#d38301"
+    "color": "#d38301",
+    "description": "Job scheduler",
+    "stage": "PROD",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/LeonMenzies/Jobber"
+      }
+    ]
+  },
+  {
+    "name": "Tracker",
+    "port": 3010,
+    "color": "#f5ec00",
+    "description": "Activity tracker",
+    "stage": "MVP",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/LeonMenzies/Tracker"
+      },
+      {
+        "label": "Supabase",
+        "url": "https://supabase.com/dashboard/project/tnxrsdcljsjzwyvbbkjj"
+      }
+    ]
+  },
+  {
+    "name": "MacroDash",
+    "port": 4002,
+    "color": "#4a9eff",
+    "description": "Macro dashboard",
+    "stage": "MVP",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/LeonMenzies/MacroDash"
+      },
+      {
+        "label": "Supabase",
+        "url": "https://supabase.com/dashboard/project/boxsuldwvojxhkvveglr"
+      }
+    ]
+  },
+  {
+    "name": "BookApp",
+    "port": 3012,
+    "color": "#8b5cf6",
+    "description": "Book tracking and recommendations",
+    "stage": "POC",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/LeonMenzies/BookApp"
+      }
+    ]
+  },
+  {
+    "name": "VideoStudio",
+    "port": 3013,
+    "color": "#e11d48",
+    "description": "Video production and publishing",
+    "stage": "POC"
   }
 ]
