@@ -38,7 +38,7 @@
     "name": "Itemizer",
     "port": 3005,
     "color": "#e22400",
-    "description": "Item management",
+    "description": "Bike component reference",
     "stage": "POC",
     "links": [
       {
@@ -64,7 +64,7 @@
     "name": "Tracker",
     "port": 3010,
     "color": "#f5ec00",
-    "description": "Activity tracker",
+    "description": "Lenny's Bikes shop + admin",
     "stage": "MVP",
     "links": [
       {
@@ -81,7 +81,7 @@
     "name": "MacroDash",
     "port": 4002,
     "color": "#4a9eff",
-    "description": "Macro dashboard",
+    "description": "Trading research hub",
     "stage": "MVP",
     "links": [
       {
@@ -98,7 +98,7 @@
     "name": "BookApp",
     "port": 3012,
     "color": "#8b5cf6",
-    "description": "Book tracking and recommendations",
+    "description": "NovelMind \u2014 books by feel",
     "stage": "POC",
     "links": [
       {
